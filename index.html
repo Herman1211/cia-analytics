@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="The Shower Edit — a student ecommerce prototype exploring three mCaffeine body washes. Browse, build a bag and try a simulated checkout.">
+  <meta name="description" content="FESH shilo — a student ecommerce prototype exploring three mCaffeine body washes. Browse, build a bag and try a simulated checkout.">
   <meta name="theme-color" content="#304b3d">
-  <title>The Shower Edit | mCaffeine Student Demo</title>
+  <title>FESH shilo | mCaffeine Student Demo</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script type="module" src="app.js"></script>
@@ -14,7 +14,7 @@
   <a class="skip" href="#main">Skip to content</a>
   <div class="announcement">A small collection. A fresh start. <span>Student demo · No real orders or payments</span></div>
   <header class="header">
-    <a class="wordmark" href="#home" aria-label="The Shower Edit home">the shower edit<span>mCaffeine collection · academic prototype</span></a>
+    <a class="wordmark" href="#home" aria-label="FESH shilo home">FESH shilo<span>mCaffeine collection · academic prototype</span></a>
     <nav aria-label="Main navigation"><a href="#collection">Body washes</a><a href="#about">About this demo</a></nav>
     <button id="bag-button" class="bag-button" aria-label="Open bag, 0 items"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14l1 14H4L5 7Zm3 0V5a4 4 0 0 1 8 0v2"/></svg><span>Bag</span><span id="bag-count" class="count">0</span></button>
   </header>
@@ -35,7 +35,7 @@
     <section class="ritual wrap" aria-labelledby="ritual-title"><div><p class="eyebrow">A SIMPLE DAILY RITUAL</p><h2 id="ritual-title">Good showers.<br>No overthinking.</h2><p>Pick a fragrance, explore the details and build your bag.</p></div><ol><li><span>01</span><div><h3>Find your mood</h3><p>Choose a fruity fragrance or a fresh, green note.</p></div></li><li><span>02</span><div><h3>Make it yours</h3><p>Read the product details and choose your quantity.</p></div></li><li><span>03</span><div><h3>Try the journey</h3><p>Review your bag and complete a demo checkout.</p></div></li></ol></section>
     <section class="about wrap" id="about" aria-labelledby="about-title"><div><p class="eyebrow">BEHIND THE PROJECT</p><h2 id="about-title">A small store.<br>A clear customer journey.</h2></div><div><p>This independent student prototype studies the online buying journey of mCaffeine, a beauty and personal care brand. It is not the official store or affiliated with mCaffeine.</p><p>Explore → product details → bag → demo checkout → confirmation. There are no real orders, deliveries or payments. Use the built-in sample details when checking out.</p><details><summary>Project scope & sources</summary><p>CIA 1: a working storefront prototype. A later analytics extension can build on the same journey; no analytics results are claimed here. The separate KPI deck, AI Reflection Note and prompt sheet remain part of the written assignment brief.</p><p>Product photography belongs to mCaffeine and is used here for educational reference. Descriptions are short student summaries of brand-provided information, not independently verified performance claims.</p><a href="https://www.mcaffeine.com/collections/body-wash" target="_blank" rel="noopener noreferrer">View the source collection ↗</a><p>Prepared by Mughaputo Achumi · Digital & Social Media Analytics.</p></details></div></section>
   </main>
-  <footer class="footer"><div class="wrap"><a class="wordmark" href="#home">the shower edit<span>A fresh take on a simple routine.</span></a><p>Independent student demo · CIA 1<br>Beauty & Personal Care / D2C</p><a href="#collection">Back to the collection ↑</a></div></footer>
+  <footer class="footer"><div class="wrap"><a class="wordmark" href="#home">FESH shilo<span>A fresh take on a simple routine.</span></a><p>Independent student demo · CIA 1<br>Beauty & Personal Care / D2C</p><a href="#collection">Back to the collection ↑</a></div></footer>
   <dialog id="product-dialog" class="product-dialog" aria-labelledby="detail-title"><button class="close" data-close="product-dialog" aria-label="Close product details">×</button><div id="product-detail"></div></dialog>
   <dialog id="cart-dialog" class="cart-dialog" aria-labelledby="cart-title"><div class="dialog-heading"><div><p class="eyebrow">YOUR DAILY RESET</p><h2 id="cart-title">Your bag <span id="cart-quantity"></span></h2></div><button class="close" data-close="cart-dialog" aria-label="Close bag">×</button></div><div id="cart-items" class="cart-items"></div><div id="cart-summary" class="cart-summary"></div></dialog>
   <dialog id="checkout-dialog" class="checkout-dialog" aria-labelledby="checkout-title"><button class="close" data-close="checkout-dialog" aria-label="Close checkout">×</button><div id="checkout-content"></div></dialog>

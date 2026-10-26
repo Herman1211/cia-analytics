@@ -20,3 +20,7 @@ This records prompts actually supplied by the student in this conversation; it i
 - Used a distinct storefront title and a clear academic-demo label to avoid presenting this as mCaffeine's official store.
 
 The final one-page AI Reflection Note must include the student's own critical additions/corrections after reviewing this work. These cannot be truthfully written on the student's behalf as already completed.
+
+## Website name update
+
+The student requested the name FESH shilo. The header, footer, browser title, page description and checkout heading were updated. The simple-language prompt sheet is in prompt-sheet.md and summarises requests rather than claiming to be a verbatim transcript.

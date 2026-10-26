@@ -1,4 +1,4 @@
-# The Shower Edit — CIA Analytics
+# FESH shilo — CIA Analytics
 
 A compact, independent student storefront inspired by **mCaffeine's body-wash collection**. Three products, product details, fragrance filters, price sorting, a persistent bag and a simulated checkout. Desktop-first and responsive on mobile.
 
