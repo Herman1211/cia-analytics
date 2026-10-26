@@ -12,6 +12,8 @@ No build or dependencies are needed. Serve the project root with any static serv
 
 In this repository open **Settings → Pages → Build and deployment**. Select **Deploy from a branch**, **main**, **/(root)**, and Save. GitHub provides the website link once deployment completes. A `.nojekyll` file is included. All asset paths are relative for project-site hosting.
 
+After enabling Pages, check the repository Actions tab for a Pages build and deployment run. A saved publishing source alone does not confirm a successful deployment; verify the published site before submitting its link.
+
 ## Test the journey
 
 1. Browse all three products; filter Fruity / Fresh & green and sort by price.
